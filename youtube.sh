@@ -47,6 +47,6 @@ wind=`xdotool search "Mozilla Firefox" | head -1`
 xdotool windowactivate --sync $wind key ctrl+r
 sleep 35
 xdotool windowactivate --sync $wind key alt+F4
-sleep 10
+sleep 5
 killall -HUP tor
 done
