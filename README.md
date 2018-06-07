@@ -1,16 +1,18 @@
 # Viewbot-V1.1
 Viewbot on youtube
 
+To be used as root in Kali
+
 Slightly altered with different sleep times
 
-Youbot is a Shell Script to increase views on Youtube using Tor ips.
+Viewbot-V1.1 is a Shell Script to increase views on Youtube using Tor ips.
 
 ### Usage:
 ```
 git clone https://github.com/Jamikun/Viewbot-V1.1
-cd youbot
+cd Viewbot-V1.1
 service tor start
-sudo ./youbot.sh URL
+sudo ./viewbot.sh URL
 ```
 
 ### Install requirements (xdotool, proxychains, tor):
