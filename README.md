@@ -12,7 +12,7 @@ Viewbot-V1.1 is a Shell Script to increase views on Youtube using Tor ips.
 git clone https://github.com/Jamikun/Viewbot-V1.1
 cd Viewbot-V1.1
 service tor start
-sudo ./viewbot.sh URL
+bash viewbot.sh URL
 ```
 
 ### Install requirements (xdotool, proxychains, tor):
